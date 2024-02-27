@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Overpass", sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.rating-app-background{
+    background: radial-gradient(circle at 50% -10%,#252d37, rgba(23,25,28,1));
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    padding: 35px 40px;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+    margin-top: 30px;
+}
+.star-icon{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+    padding: 15px;
+}
+p{
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+}
+.rating-buttons{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.rating-buttons button{
+    height: 5.5vh;
+    width: 5.5vh;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    color: hsl(217, 12%, 63%);
+}
+.rating-buttons button:hover{
+    background-color:  hsl(216, 12%, 54%);
+    color: white;
+}
+button{
+    width: 100%;
+    height: 5.5vh;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 100px;
+    border: 0px;
+    font-size: 110%;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+.choice.active{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.users-rating{
+    background-color: hsl(213, 19%, 18%);
+    height: 3vh;
+    width: 15vw;
+    border-radius: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(25, 97%, 53%);
+    margin: 50px 0; 
+    margin-bottom: 20px;
+}
+.rating-app-background .active-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#thanksContainer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
